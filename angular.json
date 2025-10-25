@@ -66,10 +66,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "app-comida-ingles:build:production"
+              "browserTarget": "app-comida-ingles:build:production"
             },
             "development": {
-              "buildTarget": "app-comida-ingles:build:development"
+              "browserTarget": "app-comida-ingles:build:development"
             }
           },
           "defaultConfiguration": "development"
