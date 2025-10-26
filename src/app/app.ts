@@ -79,7 +79,7 @@ type Slide = { url: string; name: string };
         </div>
 
         <!-- Hint -->
-        <div *ngIf="!isPlaying" class="absolute inset-0 grid place-items-center text-center">
+        <div *ngIf="!isPlaying && !images.length" class="absolute inset-0 grid place-items-center text-center">
           <div class="px-4 py-3 rounded-xl bg-black/50 backdrop-blur ring-1 ring-white/10">
             <p class="text-sm opacity-90">Sube imágenes o presiona <span class="font-semibold">Demo</span>.</p>
             <p class="text-xs opacity-70">Click o barra espaciadora para reproducir.</p>
